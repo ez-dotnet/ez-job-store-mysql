@@ -1,5 +1,6 @@
 using EZ.Job.Core;
 using EZJob.Store.MySQL;
+using Xunit;
 
 namespace EZ.Job.Store.MySQL.Tests;
 
