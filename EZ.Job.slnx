@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/EZ.Job.Store.MySQL/EZ.Job.Store.MySQL.csproj" />
+  </Folder>
+  <Folder Name="/samples/">
+    <Project Path="samples/EZ.Job.Store.MySQL.Sample/EZ.Job.Store.MySQL.Sample.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/EZ.Job.Store.MySQL.Tests/EZ.Job.Store.MySQL.Tests.csproj" />
+  </Folder>
+</Solution>
