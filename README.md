@@ -14,6 +14,7 @@ Store **MySQL/MariaDB** para [EZ.Job.Core](https://github.com/ez-dotnet/ez-job-c
 ## Instalação
 
 ```bash
+dotnet add package EZ.Job.Core
 dotnet add package EZ.Job.Store.MySQL
 ```
 
