@@ -5,12 +5,12 @@ namespace Microsoft.Extensions.DependencyInjection;
 
 public static class EZJobMySqlExtensions
 {
-    public static EZJobBuilder AddMySqlStore(this EZJobBuilder builder, string connectionString)
+    public static IEZJobBuilder AddMySqlStore(this IEZJobBuilder builder, string connectionString)
     {
         return AddMySqlStore(builder, o => o.ConnectionString = connectionString);
     }
 
-    public static EZJobBuilder AddMySqlStore(this EZJobBuilder builder, Action<MySqlStoreOptions> configure)
+    public static IEZJobBuilder AddMySqlStore(this IEZJobBuilder builder, Action<MySqlStoreOptions> configure)
     {
         var options = new MySqlStoreOptions();
         configure(options);
